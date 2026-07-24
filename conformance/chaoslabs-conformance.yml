@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: https://chaoslabs.xyz/posts/chaos-labs-achieves-iso-27001-certification
+standards:
+- id: iso-27001
+  name: ISO/IEC 27001 Information Security Management System
+  conforms: true
+  evidence: >-
+    Chaos Labs announced ISO/IEC 27001 certification (effective 2026-04-23), the global standard for
+    information security management systems, aligning existing security practices with an established
+    industry framework.
+  source: https://chaoslabs.xyz/posts/chaos-labs-achieves-iso-27001-certification
+- id: soc2
+  name: SOC 2
+  conforms: false
+  evidence: No SOC 2 attestation published on the public site as of 2026-07-18.
+compliance:
+  certifications:
+  - ISO/IEC 27001
+  published_at: https://chaoslabs.xyz/posts/chaos-labs-achieves-iso-27001-certification

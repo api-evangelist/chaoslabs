@@ -1,0 +1,27 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/org/chaos-labs
+note: >-
+  First-party npm packages published under the @chaos-labs scope (repositories in the ChaosLabsInc
+  GitHub org). These are developer/testing tools for local oracle simulation, not client SDKs for a
+  hosted REST API — Chaos Labs does not publish a public REST client library. Marked official:true
+  because they are published under the company's own npm scope and GitHub org.
+packages:
+- language: javascript
+  registry: npm
+  name: "@chaos-labs/uniswap-v3-oracle-hardhat-plugin"
+  version: 1.0.0
+  url: https://www.npmjs.com/package/@chaos-labs/uniswap-v3-oracle-hardhat-plugin
+  repository: https://github.com/ChaosLabsInc/uniswap-v3-oracle-hardhat-plugin
+  install: npm install @chaos-labs/uniswap-v3-oracle-hardhat-plugin
+  official: true
+  category: oracle-testing-tooling
+- language: javascript
+  registry: npm
+  name: "@chaos-labs/uniswap-v3-pool-mocker"
+  version: 1.0.1
+  url: https://www.npmjs.com/package/@chaos-labs/uniswap-v3-pool-mocker
+  repository: https://github.com/ChaosLabsInc/uniswap-v3-oracle-pool-mocker
+  install: npm install @chaos-labs/uniswap-v3-pool-mocker
+  official: true
+  category: oracle-testing-tooling

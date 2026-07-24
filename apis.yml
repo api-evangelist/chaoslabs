@@ -1,8 +1,17 @@
 aid: chaoslabs
 name: Chaoslabs
-description: Chaoslabs is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Chaos Labs is a New York-based company building financial-intelligence and economic-security
+  infrastructure for onchain markets. Its flagship product, Edge (Chaos Oracles), is a decentralized
+  oracle protocol that unifies real-time price, risk, and proof-of-reserves data, delivering
+  high-precision price feeds with an integrated risk engine plus automated, real-time risk-parameter
+  optimization. Leading DeFi protocols including Aave, GMX, dYdX, Jupiter, Venus, Lido, Maker and
+  Uniswap Foundation use Chaos Labs to help secure billions of dollars in value. Developer integration
+  spans EVM, SVM, off-chain services and TradingView via docs.chaoslabs.xyz. Founded in 2021 by Omer
+  Goldberg and Julian Lindinger, Chaos Labs is backed by Haun Ventures, Galaxy, PayPal Ventures,
+  Coinbase Ventures, Lightspeed, Bessemer and others, and holds ISO/IEC 27001 certification. This
+  profile was surfaced as a portfolio company of Lightspeed Venture Partners and enriched from Chaos
+  Labs' real public developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/chaoslabs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +19,71 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://chaoslabs.xyz/og-image.png
 tags:
 - Company
+- Oracles
+- Risk Management
+- DeFi
+- Blockchain
+- Onchain Data
+- Economic Security
+- Price Feeds
+- Crypto
+- AI
 apis: []
+common:
+- type: Website
+  url: https://chaoslabs.xyz
+- type: DeveloperPortal
+  url: https://docs.chaoslabs.xyz
+- type: Documentation
+  url: https://docs.chaoslabs.xyz
+- type: Blog
+  url: https://chaoslabs.xyz/news
+- type: GitHubOrganization
+  url: https://github.com/ChaosLabsInc
+- type: TermsOfService
+  url: https://chaoslabs.xyz/terms-of-use
+- type: PrivacyPolicy
+  url: https://chaoslabs.xyz/privacy-policy
+- type: X
+  url: https://twitter.com/chaoslabs
+- type: LinkedIn
+  url: https://www.linkedin.com/company/chaos-labs-xyz/
+- type: YouTube
+  url: https://www.youtube.com/@chaoslabs-ai
+- type: LLMsTxt
+  url: llms/chaoslabs-llms.txt
+- type: Packages
+  url: packages/chaoslabs-packages.yml
+- type: Compliance
+  url: conformance/chaoslabs-conformance.yml
+- type: Conformance
+  url: conformance/chaoslabs-conformance.yml
+- type: DomainSecurity
+  url: security/chaoslabs-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
